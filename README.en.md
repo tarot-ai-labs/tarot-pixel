@@ -17,7 +17,7 @@ Build and refine interfaces using the conventions of your project.
 
 </div>
 
-![How Tarot Pixel works: sync a design, query visual context through MCP, and let a coding agent implement and refine the interface within your project.](assets/workflow.en.svg)
+![How Tarot Pixel works: sync a design, query visual context through MCP, and let a coding agent implement and refine the interface within your project.](assets/workflow.en.svg?v=lightbulb)
 
 ## Bring visual implementation into everyday development
 
