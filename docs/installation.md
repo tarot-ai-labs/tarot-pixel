@@ -1,5 +1,7 @@
 # 安装与连接
 
+**简体中文** · [English](en/installation.md)
+
 [返回首页](../README.md) · [快速开始](quick-start.md) · [支持范围](compatibility.md)
 
 ## 环境要求
@@ -16,11 +18,11 @@
 
 Qoder 插件包含 MCP 服务配置和指导 Agent 使用设计数据的 Skill。
 
-1. 打开 Qoder 的插件市场或插件管理入口，搜索 `Tarot Pixel`。插件来源与界面可能随账号和版本变化。
-2. 如果已取得发布者提供的插件 ZIP，可使用 Qoder 的导入插件功能。
-3. 确认插件已启用，在新任务中让 Agent 调用 `server_status` 验证连接。
+1. 打开 [Tarot Pixel 的 Qoder 插件市场页面](https://qoder.com/zh/marketplace/plugin?id=tarot-pixel)，按页面指引安装。
+2. 在 Qoder 中确认 Tarot Pixel 已启用。
+3. 新建任务，让 Agent 调用 `server_status` 验证连接。
 
-当前公开仓库用于产品文档和反馈，暂未提供 Qoder 插件 ZIP 下载。没有插件包时，请使用下方的公开 npm MCP 配置。Qoder 的具体界面操作可参考[官方插件说明](https://docs.qoder.com/qoder/plugins)。
+也可以在 Qoder 的插件市场中搜索 `Tarot Pixel`。使用其他 MCP 客户端时，按下方说明配置公开 npm Runtime。Qoder 界面操作可参考[官方插件说明](https://docs.qoder.com/qoder/plugins)。
 
 ## 直接配置 MCP
 

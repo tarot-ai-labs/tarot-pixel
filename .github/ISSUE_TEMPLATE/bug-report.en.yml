@@ -1,0 +1,62 @@
+name: Bug report (English)
+description: Report a connection, sync, rendering, or visual implementation problem.
+title: "[Bug] "
+labels: [bug, 待确认]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what went wrong. If you do not know a version, write "Not sure". Screenshots and logs are optional.
+        This repository is public. Remove customer data, credentials, and internal information before sharing. For usage questions, visit [Discussions](https://github.com/tarot-ai-labs/tarot-pixel/discussions).
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Where did the problem occur?
+      options:
+        - Installation or MCP connection
+        - Syncing a design
+        - Browsing the local View
+        - Querying design information
+        - Screenshots, composites, or fonts
+        - Page implementation or visual refinement
+        - Other or not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: design-tool
+    attributes:
+      label: Design tool
+      options:
+        - Figma
+        - Sketch
+        - Not applicable or not sure
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include your operating system, coding agent client, and runtime or plugin versions if known. Write "Not sure" for anything unknown.
+      placeholder: "For example: macOS; Qoder; runtime and design plugin versions not sure. For visual implementation issues, include the model name if known."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps leading to the problem, even if it does not happen every time.
+      placeholder: "1. Open...\n2. Select...\n3. Observe..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Expected and actual results
+      description: What did you expect, and what happened? For visual issues, describe the specific difference.
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots, errors, or a minimal example (optional)
+      description: Paste a screenshot or drop an attachment here. Prefer a sanitized close-up of the design and result. Do not upload internal design files or logs containing credentials.

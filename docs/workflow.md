@@ -1,5 +1,7 @@
 # 使用流程与提示词
 
+**简体中文** · [English](en/workflow.md)
+
 [返回首页](../README.md) · [快速开始](quick-start.md)
 
 ## 从设计到实现

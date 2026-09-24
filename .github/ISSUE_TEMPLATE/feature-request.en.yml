@@ -1,0 +1,28 @@
+name: Feature request (English)
+description: Describe your task and the experience you would like to improve.
+title: "[Feature] "
+labels: [enhancement, 待确认]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with your use case. You do not need to propose a technical solution. Leave out business information that cannot be made public.
+  - type: textarea
+    id: scenario
+    attributes:
+      label: What are you trying to accomplish?
+      description: Which design tool or client do you use, and when would you need this capability?
+    validations:
+      required: true
+  - type: textarea
+    id: friction
+    attributes:
+      label: What is difficult today, and what would you like to improve?
+      description: Describe your ideal workflow or what a successful result would look like.
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround or additional context (optional)
+      description: Explain how you handle this today, how often it happens, or add a sanitized illustration.

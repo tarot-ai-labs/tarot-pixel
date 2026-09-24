@@ -1,5 +1,7 @@
 # 反馈指南
 
+**简体中文** · [English](SUPPORT.en.md)
+
 [返回首页](README.md) · [常见问题](docs/faq.md)
 
 ## 选择入口

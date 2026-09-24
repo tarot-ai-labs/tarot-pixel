@@ -1,0 +1,24 @@
+name: Documentation feedback (English)
+description: Report missing instructions, broken links, or unclear explanations.
+title: "[Docs] "
+labels: [documentation, 待确认]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which page or section?
+      placeholder: Paste a page link or enter the document and section name.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem?
+      description: Which step is unclear, differs from the actual behavior, or contains a broken link?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement (optional)
+      description: Add suggested wording, a screenshot, or reference material. Remove internal information first.

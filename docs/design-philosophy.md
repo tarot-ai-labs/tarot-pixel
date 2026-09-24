@@ -1,5 +1,7 @@
 # 让设计稿成为 Agent 可查阅的视觉上下文
 
+**简体中文** · [English](en/design-philosophy.md)
+
 [返回首页](../README.md) · [体验工作流](workflow.md)
 
 本文根据[微信公众号原文](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650544417&idx=1&sn=b464075a0ff3f06d98f1919331b6b7ff&chksm=8390d139b4e7582f6f76fd1769393679c81e51080b44d8851361364570005e2403ab8acc3ce2#rd)中的产品思考整理，接入方式与能力描述以当前本地 MCP 版本为准。

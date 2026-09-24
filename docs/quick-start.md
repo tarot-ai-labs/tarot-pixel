@@ -1,5 +1,7 @@
 # 快速开始
 
+**简体中文** · [English](en/quick-start.md)
+
 [返回首页](../README.md) · [安装指南](installation.md) · [遇到问题](faq.md)
 
 目标：同步一个小组件，让 Agent 在你的项目里实现，并完成一次视觉核对。
@@ -13,7 +15,7 @@
 
 ## 2. 连接 Tarot Pixel
 
-已取得 Qoder 插件时，安装并启用它。尚未取得插件包时，可以直接在客户端添加以下 MCP 服务：
+在 [Qoder 插件市场](https://qoder.com/zh/marketplace/plugin?id=tarot-pixel)安装并启用 Tarot Pixel。使用其他 MCP 客户端，或希望直接配置 MCP 时，添加以下服务：
 
 ```json
 {

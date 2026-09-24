@@ -1,5 +1,7 @@
 <div align="center">
 
+**简体中文** · [English](README.en.md)
+
 # Tarot Pixel
 
 ### 让 AI 编程助手读懂设计稿
@@ -42,7 +44,7 @@
 
 ## 开始使用
 
-1. **连接 Tarot Pixel。** 在 Qoder 中启用已有的 Tarot Pixel 插件，或按[安装指南](docs/installation.md)添加公开 npm Runtime 的 MCP 配置。
+1. **连接 Tarot Pixel。** 从 [Qoder 插件市场](https://qoder.com/zh/marketplace/plugin?id=tarot-pixel)安装并启用 Tarot Pixel，或按[安装指南](docs/installation.md)添加公开 npm Runtime 的 MCP 配置。
 2. **同步设计。** 在 Figma 或 Sketch 中运行对应插件，选择目标 Frame、画板或图层，点击“同步设计稿”。
 3. **交给 Agent。** 把同步返回的完整本地链接和实现目标一起发送给 Agent，在当前项目中完成实现与预览。
 
@@ -52,7 +54,7 @@
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Figma 插件  | [在 Figma Community 中打开](https://www.figma.com/community/plugin/1635645029043726171)                                                 |
 | Sketch 插件 | [下载插件 ZIP](https://unpkg.com/@tarot-ai/tarot-pixel-sketch-release@latest/Tarot-Pixel.sketchplugin.zip)，要求 Sketch 80.0 或更高版本 |
-| Qoder 插件  | 在你可用的插件源中安装，或导入已取得的发布包；[查看说明](docs/installation.md#qoder-插件)                                               |
+| Qoder 插件  | [在 Qoder 插件市场中打开](https://qoder.com/zh/marketplace/plugin?id=tarot-pixel)；[查看安装说明](docs/installation.md#qoder-插件)      |
 | 通用 MCP    | [配置本地 Runtime](docs/installation.md#直接配置-mcp)，npm 包为 [`@tarot-ai/pixel`](https://www.npmjs.com/package/@tarot-ai/pixel)      |
 
 ## 为什么这样设计

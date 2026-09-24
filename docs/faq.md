@@ -1,5 +1,7 @@
 # 常见问题
 
+**简体中文** · [English](en/faq.md)
+
 [返回首页](../README.md) · [提交问题](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=bug-report.yml)
 
 ## Agent 看不到 Tarot Pixel 工具
