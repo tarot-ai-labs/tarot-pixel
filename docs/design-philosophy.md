@@ -2,7 +2,7 @@
 
 [返回首页](../README.md) · [体验工作流](workflow.md)
 
-本文根据《场景营销前端 AI Coding — 视觉还原》中的产品思考整理，接入方式与能力描述以当前本地 MCP 版本为准。
+本文根据[微信公众号原文](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650544417&idx=1&sn=b464075a0ff3f06d98f1919331b6b7ff&chksm=8390d139b4e7582f6f76fd1769393679c81e51080b44d8851361364570005e2403ab8acc3ce2#rd)中的产品思考整理，接入方式与能力描述以当前本地 MCP 版本为准。
 
 ## 视觉还原发生在完整开发任务中
 

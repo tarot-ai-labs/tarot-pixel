@@ -15,7 +15,7 @@
     <text x="48" y="116" fill="#eeeaf9" font-size="28" font-weight="600">设计信息，随用随查。实现过程，持续修正。</text>
     <rect x="48" y="160" width="290" height="150" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#5e5778"/>
     <text x="72" y="196" fill="#b8b0cf" font-size="15">01 / 同步设计</text>
-    <text x="72" y="234" fill="#f5f3ff" font-size="20" font-weight="600">MasterGo · Figma · Sketch</text>
+    <text x="72" y="234" fill="#f5f3ff" font-size="25" font-weight="600">Figma · Sketch</text>
     <text x="72" y="275" fill="#b8b0cf" font-size="17">Frame、画板与图层</text>
     <rect x="455" y="160" width="290" height="150" rx="16" fill="#bda8ff" fill-opacity="0.11" stroke="url(#accent)"/>
     <text x="479" y="196" fill="#cfbfff" font-size="15">02 / 本地视觉上下文</text>

@@ -9,7 +9,7 @@
 
 [快速开始](docs/quick-start.md) · [设计思考](docs/design-philosophy.md) · [演示](docs/showcase.md) · [问题反馈](https://github.com/tarot-ai-labs/tarot-pixel/issues/new/choose)
 
-**MasterGo · Figma · Sketch → Tarot Pixel → Qoder / MCP 客户端**
+**Figma · Sketch → Tarot Pixel → Qoder / MCP 客户端**
 
 </div>
 
@@ -43,7 +43,7 @@
 ## 开始使用
 
 1. **连接 Tarot Pixel。** 在 Qoder 中启用已有的 Tarot Pixel 插件，或按[安装指南](docs/installation.md)添加公开 npm Runtime 的 MCP 配置。
-2. **同步设计。** 在 Figma、Sketch 或满足接入条件的 MasterGo 中运行对应插件，选择目标 Frame、画板或图层，点击“同步设计稿”。
+2. **同步设计。** 在 Figma 或 Sketch 中运行对应插件，选择目标 Frame、画板或图层，点击“同步设计稿”。
 3. **交给 Agent。** 把同步返回的完整本地链接和实现目标一起发送给 Agent，在当前项目中完成实现与预览。
 
 第一次使用建议从一张卡片开始。[跟着快速开始完成第一次还原 →](docs/quick-start.md)
@@ -54,7 +54,6 @@
 | Sketch 插件 | [下载插件 ZIP](https://unpkg.com/@tarot-ai/tarot-pixel-sketch-release@latest/Tarot-Pixel.sketchplugin.zip)，要求 Sketch 80.0 或更高版本 |
 | Qoder 插件  | 在你可用的插件源中安装，或导入已取得的发布包；[查看说明](docs/installation.md#qoder-插件)                                               |
 | 通用 MCP    | [配置本地 Runtime](docs/installation.md#直接配置-mcp)，npm 包为 [`@tarot-ai/pixel`](https://www.npmjs.com/package/@tarot-ai/pixel)      |
-| MasterGo    | 需要对应插件与配套接入环境；[查看支持范围](docs/compatibility.md)                                                                       |
 
 ## 为什么这样设计
 

@@ -9,7 +9,7 @@
 - 一个支持 stdio MCP 的 Coding Agent 客户端；Qoder 可使用 Tarot Pixel 插件。
 - Node.js 20.19.0 或更高版本。
 - 本机安装 Chrome、Chromium、Edge 或 Brave，用于截图和合图。
-- Figma 或 Sketch 中的一张卡片、一个按钮组或其他小模块。MasterGo 的接入条件见[支持范围](compatibility.md)。
+- Figma 或 Sketch 中的一张卡片、一个按钮组或其他小模块。
 
 ## 2. 连接 Tarot Pixel
 

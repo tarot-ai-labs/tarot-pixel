@@ -8,7 +8,7 @@
 
 ## 已安装设计工具插件，为什么还无法同步？
 
-设计工具插件负责导出，本地 Runtime 负责接收。先启动已连接 Tarot Pixel 的客户端，让 Agent 调用 `server_status`，确认 `view.ready` 为 `true`，再进行同步。MasterGo 还需要配套接入环境。
+设计工具插件负责导出，本地 Runtime 负责接收。先启动已连接 Tarot Pixel 的客户端，让 Agent 调用 `server_status`，确认 `view.ready` 为 `true`，再进行同步。
 
 ## 设计列表为空，或者查不到节点
 

@@ -10,7 +10,7 @@
 | Coding Agent | 支持 stdio MCP；安装 Qoder 插件时还需插件支持              |
 | 网络         | 使用 npm Runtime 时，首次启动需要访问 npm 公共仓库         |
 | 渲染浏览器   | 本机安装 Chrome、Chromium、Edge 或 Brave，供截图、合图使用 |
-| 设计工具     | Figma、Sketch，或满足专用接入条件的 MasterGo               |
+| 设计工具     | Figma 或 Sketch                                            |
 
 ## Qoder 插件
 
@@ -63,10 +63,6 @@ Qoder 自定义 MCP 的入口见[官方 Connectors 说明](https://docs.qoder.co
 4. 确认本机 Runtime 已启动，点击“同步设计稿”。插件安装后会检查后续更新。
 
 Sketch 插件与 Runtime 的版本独立。反馈问题时，尽量同时记录两个版本。
-
-## MasterGo 插件
-
-当前支持带有 Tarot Pixel 导出能力的 MasterGo 插件，但本地同步依赖配套接入环境，本仓库尚未提供通用公开安装入口。已获接入的用户按所在环境的说明使用；其他用户可先通过 Figma 或 Sketch 体验。
 
 ## 验证安装
 

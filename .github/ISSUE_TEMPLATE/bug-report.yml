@@ -29,7 +29,6 @@ body:
       options:
         - Figma
         - Sketch
-        - MasterGo
         - 不涉及或不确定
     validations:
       required: true
