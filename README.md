@@ -17,7 +17,7 @@
 
 </div>
 
-![Tarot Pixel 工作方式示意：设计工具同步设计，Tarot Pixel 提供视觉上下文，Coding Agent 结合项目完成实现并回查修正。](assets/workflow.svg?v=lightbulb)
+![Tarot Pixel 工作方式示意：设计工具同步设计，Tarot Pixel 提供视觉上下文，Coding Agent 结合项目完成实现并回查修正。](assets/workflow-lightbulb.svg)
 
 ## 把视觉还原接入真实开发
 
