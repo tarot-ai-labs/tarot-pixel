@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用咨询与经验交流
+    url: https://github.com/tarot-ai-labs/tarot-pixel/discussions
+    about: 提问、分享使用经验，或讨论尚未形成具体需求的想法。
+  - name: 先查看常见问题
+    url: https://github.com/tarot-ai-labs/tarot-pixel/blob/main/docs/faq.md
+    about: 查看连接、同步、渲染、字体与资源问题的排查方式。

@@ -1,0 +1,63 @@
+name: 问题反馈
+description: 报告连接、同步、渲染或视觉还原问题。
+title: "[问题] "
+labels: [bug, 待确认]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请描述你遇到的问题。版本不清楚也可以提交；截图和日志为选填项。
+        这里是公开仓库，请隐藏客户数据、凭据和内部信息。使用咨询也可前往 [讨论区](https://github.com/tarot-ai-labs/tarot-pixel/discussions)。
+  - type: dropdown
+    id: stage
+    attributes:
+      label: 问题发生在哪一步？
+      options:
+        - 安装或连接 MCP
+        - 同步设计稿
+        - 浏览本地 View
+        - 查询设计信息
+        - 截图、合图或字体资源
+        - 页面实现或视觉修正
+        - 其他或不确定
+    validations:
+      required: true
+  - type: dropdown
+    id: design-tool
+    attributes:
+      label: 使用的设计工具
+      options:
+        - Figma
+        - Sketch
+        - MasterGo
+        - 不涉及或不确定
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 使用环境
+      description: 尽量提供操作系统、Coding Agent 客户端、Runtime 或插件版本；不知道的项目填“不清楚”。
+      placeholder: "例如：macOS；Qoder；Runtime 0.0.4；设计工具插件版本不清楚。视觉还原问题也可补充模型名称。"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 操作步骤
+      description: 从哪一步开始出现问题？无法稳定复现时，也可以描述发生前的操作。
+      placeholder: "1. 打开……\n2. 点击……\n3. 出现……"
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: 预期与实际结果
+      description: 希望发生什么？实际发生了什么？视觉问题请说明具体偏差。
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 截图、错误信息或最小示例（选填）
+      description: 可粘贴截图或拖入附件。优先提供脱敏后的局部设计与实现对比；不要上传完整内部设计稿或含凭据的日志。

@@ -1,0 +1,28 @@
+name: 功能建议
+description: 描述你想完成的任务，以及希望改善的体验。
+title: "[建议] "
+labels: [enhancement, 待确认]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        从你的使用场景说起即可，无需设计技术方案。请避免包含不能公开的业务信息。
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 你想完成什么任务？
+      description: 使用什么设计工具或客户端，在什么场景下需要这项能力？
+    validations:
+      required: true
+  - type: textarea
+    id: friction
+    attributes:
+      label: 当前遇到什么困难，希望如何改善？
+      description: 可以描述理想的操作过程或完成标志。
+    validations:
+      required: true
+  - type: textarea
+    id: workaround
+    attributes:
+      label: 目前的处理方式与补充材料（选填）
+      description: 可以补充你现在如何绕过问题、使用频率或脱敏示意图。

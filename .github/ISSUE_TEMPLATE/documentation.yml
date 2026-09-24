@@ -1,0 +1,24 @@
+name: 文档反馈
+description: 反馈教程遗漏、失效链接或不清楚的说明。
+title: "[文档] "
+labels: [documentation, 待确认]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 哪个页面或章节？
+      placeholder: 粘贴页面链接，或填写文档与章节名称。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 遇到了什么问题？
+      description: 哪一步看不懂、与实际不符，或哪个链接无法打开？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 期望补充的内容（选填）
+      description: 可以提供建议写法、截图或相关资料；请先移除内部信息。

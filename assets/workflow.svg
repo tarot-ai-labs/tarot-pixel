@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Tarot Pixel 工作方式</title>
+  <desc id="desc">设计工具同步到本地视觉上下文，Coding Agent 通过 MCP 按需查询，并结合项目实现、对照和修正。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101222"/><stop offset="1" stop-color="#211c3e"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bda8ff"/><stop offset="1" stop-color="#7ee3d0"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#a99ae1"/></marker>
+  </defs>
+  <rect width="1200" height="430" rx="24" fill="url(#background)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+    <rect x="48" y="43" width="10" height="10" rx="2" fill="#bda8ff"/><rect x="62" y="43" width="10" height="10" rx="2" fill="#7ee3d0"/>
+    <rect x="48" y="57" width="10" height="10" rx="2" fill="#7ee3d0"/><rect x="62" y="57" width="10" height="10" rx="2" fill="#bda8ff"/>
+    <text x="89" y="64" fill="#f5f3ff" font-size="24" font-weight="650">Tarot Pixel</text>
+    <text x="1152" y="62" text-anchor="end" fill="#b6aecf" font-size="16">工作方式示意</text>
+    <text x="48" y="116" fill="#eeeaf9" font-size="28" font-weight="600">设计信息，随用随查。实现过程，持续修正。</text>
+    <rect x="48" y="160" width="290" height="150" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#5e5778"/>
+    <text x="72" y="196" fill="#b8b0cf" font-size="15">01 / 同步设计</text>
+    <text x="72" y="234" fill="#f5f3ff" font-size="20" font-weight="600">MasterGo · Figma · Sketch</text>
+    <text x="72" y="275" fill="#b8b0cf" font-size="17">Frame、画板与图层</text>
+    <rect x="455" y="160" width="290" height="150" rx="16" fill="#bda8ff" fill-opacity="0.11" stroke="url(#accent)"/>
+    <text x="479" y="196" fill="#cfbfff" font-size="15">02 / 本地视觉上下文</text>
+    <text x="479" y="234" fill="#ffffff" font-size="25" font-weight="650">Tarot Pixel</text>
+    <text x="479" y="275" fill="#d4cce8" font-size="17">布局 · 样式 · 图层 · 视觉资源</text>
+    <rect x="862" y="160" width="290" height="150" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#5e5778"/>
+    <text x="886" y="196" fill="#b8b0cf" font-size="15">03 / 结合项目实现</text>
+    <text x="886" y="234" fill="#f5f3ff" font-size="25" font-weight="600">Coding Agent</text>
+    <text x="886" y="275" fill="#b8b0cf" font-size="17">组件 · 业务状态 · 代码规范</text>
+    <path d="M 350 237 H 437" stroke="#a99ae1" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="395" y="218" text-anchor="middle" fill="#b8b0cf" font-size="14">同步</text>
+    <path d="M 757 237 H 844" stroke="#a99ae1" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="802" y="218" text-anchor="middle" fill="#b8b0cf" font-size="14">MCP</text>
+    <path d="M 1007 324 V 365 H 600 V 327" fill="none" stroke="#7ee3d0" stroke-width="2" stroke-opacity="0.8" marker-end="url(#arrow)"/>
+    <rect x="662" y="350" width="290" height="30" rx="15" fill="#211c3e"/>
+    <text x="807" y="371" text-anchor="middle" fill="#9be4d5" font-size="16">实现 → 对照 → 回查 → 修正</text>
+    <text x="48" y="380" fill="#b8b0cf" font-size="16">设计稿始终可查，细节按需获取。</text>
+  </g>
+</svg>
