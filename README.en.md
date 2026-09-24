@@ -2,6 +2,8 @@
 
 [简体中文](README.md) · **English**
 
+<img src="assets/logo.png" alt="Tarot Pixel" width="96" height="96">
+
 # Tarot Pixel
 
 ### Help your coding agent understand designs

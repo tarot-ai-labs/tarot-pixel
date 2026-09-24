@@ -2,6 +2,8 @@
 
 **简体中文** · [English](README.en.md)
 
+<img src="assets/logo.png" alt="Tarot Pixel" width="96" height="96">
+
 # Tarot Pixel
 
 ### 让 AI 编程助手读懂设计稿
