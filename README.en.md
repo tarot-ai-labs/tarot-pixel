@@ -2,7 +2,7 @@
 
 [简体中文](README.md) · **English**
 
-<img src="assets/logo.png" alt="Tarot Pixel" width="96" height="96">
+<img src="assets/logo-hd.png" alt="Tarot Pixel" width="96" height="96">
 
 # Tarot Pixel
 
@@ -17,7 +17,7 @@ Build and refine interfaces using the conventions of your project.
 
 </div>
 
-![How Tarot Pixel works: sync a design, query visual context through MCP, and let a coding agent implement and refine the interface within your project.](assets/workflow-lightbulb.en.svg)
+![How Tarot Pixel works: sync a design, query visual context through MCP, and let a coding agent implement and refine the interface within your project.](assets/workflow-lightbulb-hd.en.svg)
 
 ## Bring visual implementation into everyday development
 

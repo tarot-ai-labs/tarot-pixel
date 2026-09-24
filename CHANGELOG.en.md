@@ -6,7 +6,7 @@ This file tracks changes to the public product documentation and feedback resour
 
 ## 2026-09-24
 
-- Applied the lightbulb logo to both homepages and workflow diagrams.
+- Applied the 1254 × 1254 transparent, high-resolution lightbulb logo to both homepages and workflow diagrams.
 - Added the Tarot Pixel product introduction and workflow diagram.
 - Added quick start, installation, workflow, supported capabilities, FAQ, and data documentation.
 - Published “Designs as visual reference material for coding agents,” adapting the original product ideas to the current MCP version.

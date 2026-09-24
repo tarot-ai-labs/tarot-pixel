@@ -2,7 +2,7 @@
 
 **简体中文** · [English](README.en.md)
 
-<img src="assets/logo.png" alt="Tarot Pixel" width="96" height="96">
+<img src="assets/logo-hd.png" alt="Tarot Pixel" width="96" height="96">
 
 # Tarot Pixel
 
@@ -17,7 +17,7 @@
 
 </div>
 
-![Tarot Pixel 工作方式示意：设计工具同步设计，Tarot Pixel 提供视觉上下文，Coding Agent 结合项目完成实现并回查修正。](assets/workflow-lightbulb.svg)
+![Tarot Pixel 工作方式示意：设计工具同步设计，Tarot Pixel 提供视觉上下文，Coding Agent 结合项目完成实现并回查修正。](assets/workflow-lightbulb-hd.svg)
 
 ## 把视觉还原接入真实开发
 
