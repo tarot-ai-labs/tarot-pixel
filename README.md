@@ -73,7 +73,11 @@
 
 ## 演示与使用文档
 
-演示录屏正在准备中。当前可先按照[完整使用流程](docs/workflow.md)体验“同步 → 实现 → 对照 → 修正”。
+[![视觉上下文：让 AI 读懂设计，50 秒动画](assets/visual-context-demo.jpg)](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-visual-context-50s-zh-CN.mp4)
+
+[观看 / 下载 50 秒视频](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-visual-context-50s-zh-CN.mp4) · [动画工程](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-animation-project.zip) · [演示说明](docs/showcase.md)
+
+动画介绍视觉上下文如何连接设计与编码 Agent，并用 11 秒展示 Qoder 启用、Sketch 同步和设计链接的使用。完整操作见[使用流程](docs/workflow.md)。
 
 - [快速开始](docs/quick-start.md)：完成第一次连接、同步和页面实现。
 - [安装与连接](docs/installation.md)：设计工具插件、Qoder 和通用 MCP 配置。
@@ -81,7 +85,7 @@
 - [支持范围](docs/compatibility.md)：可用能力、运行条件与当前边界。
 - [常见问题](docs/faq.md)：连接、同步、截图、字体与资源问题。
 - [数据与隐私](docs/privacy.md)：本地数据、Agent 使用边界与反馈脱敏。
-- [演示与案例](docs/showcase.md)：录屏入口与可复现案例说明。
+- [演示与案例](docs/showcase.md)：功能动画与可复现案例说明。
 - [更新记录](CHANGELOG.md)：公开文档与社区入口的变化。
 
 ## 一起把它做好
