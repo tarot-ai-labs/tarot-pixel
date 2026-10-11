@@ -65,39 +65,15 @@ https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e
 
 ![Tarot Pixel 工作方式示意：设计工具同步设计，Tarot Pixel 提供视觉上下文，Coding Agent 结合项目完成实现并回查修正。](assets/workflow-lightbulb-hd.svg)
 
-**设计稿是一份可以反复查阅的参考资料。** Agent 可以先看概览、定位模块，再查询具体节点；实现后仍能回到同一份设计数据，继续比对和修改。
+Agent 按需查询设计信息，结合项目已有组件和业务逻辑完成实现，再回看设计、修正细节。[了解设计思考 →](docs/design-philosophy.md)
 
-**视觉上下文按需获取。** 布局数值、图层关系、截图和合图各有用途，围绕当前实现问题逐层读取。
+## 文档
 
-**实现决策留在项目里。** 业务状态、接口、组件库和代码规范属于项目上下文，Agent 把这些约束与设计信息一起用于实现。
+[快速开始](docs/quick-start.md) · [安装指南](docs/installation.md) · [使用流程](docs/workflow.md) · [常见问题](docs/faq.md)
 
-**关注从开始到可交付的过程。** 除了首次效果，还应记录修正轮次、人工干预和最终可维护性。
+## 反馈
 
-[阅读《让设计稿成为 Agent 可查阅的视觉上下文》 →](docs/design-philosophy.md)
-
-## 演示与使用文档
-
-动画介绍视觉上下文如何连接设计与编码 Agent，并用 11 秒展示 Qoder 启用、Sketch 同步和设计链接的使用。完整操作见[使用流程](docs/workflow.md)。
-
-- [快速开始](docs/quick-start.md)：完成第一次连接、同步和页面实现。
-- [安装与连接](docs/installation.md)：设计工具插件、Qoder 和通用 MCP 配置。
-- [使用流程与提示词](docs/workflow.md)：页面实现、视觉修正、多状态组件与资源处理。
-- [支持范围](docs/compatibility.md)：可用能力、运行条件与当前边界。
-- [常见问题](docs/faq.md)：连接、同步、截图、字体与资源问题。
-- [数据与隐私](docs/privacy.md)：本地数据、Agent 使用边界与反馈脱敏。
-- [演示与案例](docs/showcase.md)：功能动画与可复现案例说明。
-- [更新记录](CHANGELOG.md)：公开文档与社区入口的变化。
-
-## 一起把它做好
-
-遇到问题或有想法，欢迎告诉我们：
-
-- [报告问题](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=bug-report.yml)：连接、同步、渲染或视觉还原异常。
-- [提出建议](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=feature-request.yml)：描述你想完成的任务，以及当前遇到的困难。
-- [改进文档](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=documentation.yml)：教程遗漏、失效链接或不清楚的说明。
-- [提问与交流](https://github.com/tarot-ai-labs/tarot-pixel/discussions)：使用咨询、经验分享和开放讨论。
-
-版本不清楚也可以提交，截图和日志为选填项。处理方式见[反馈指南](SUPPORT.md)。
+[报告问题](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=bug-report.yml) · [提出建议](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=feature-request.yml) · [交流讨论](https://github.com/tarot-ai-labs/tarot-pixel/discussions)
 
 ---
 
