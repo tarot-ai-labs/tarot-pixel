@@ -8,13 +8,11 @@
 
 https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e
 
-[下载可编辑工程（ZIP）](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-animation-project.zip) · [发布页](https://github.com/tarot-ai-labs/tarot-pixel/releases/tag/visual-context-demo-20261011)
+[发布页](https://github.com/tarot-ai-labs/tarot-pixel/releases/tag/visual-context-demo-20261011)
 
 这段动画展示预览、结构、样式和资源如何成为 Agent 可查询的设计依据，并对比典型转换式 D2C 与上下文驱动的工作流程。Figma、Sketch 是设计入口，Qoder 是编码 Agent 示例。
 
 视频为简体中文画面文字、轻音效，时长 50 秒，分辨率 1920 × 1080。其中 11 秒展示启用插件、同步设计、打开 View 和把设计链接交给 Qoder。
-
-工程包含 Remotion 源码和所需素材，解压后执行 `npm install`、`npm run render` 可重新生成视频。
 
 以下完整实现与视觉修正录屏仍在准备中。
 

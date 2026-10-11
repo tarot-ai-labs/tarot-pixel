@@ -19,7 +19,7 @@
 
 https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e
 
-[打开视频](https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e) · [演示说明](docs/showcase.md) · [可编辑动画工程](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-animation-project.zip)
+[打开视频](https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e) · [演示说明](docs/showcase.md)
 
 ## 把视觉还原接入真实开发
 
