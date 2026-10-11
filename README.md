@@ -77,4 +77,4 @@ Agent 按需查询设计信息，结合项目已有组件和业务逻辑完成�
 
 ---
 
-本仓库用于 Tarot Pixel 的产品介绍、使用文档和用户反馈。软件包沿用各自的授权声明；当前 `@tarot-ai/pixel` 为专有软件。文档贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+本仓库用于 Tarot Pixel 的产品介绍、使用文档和用户反馈。软件包沿用各自的授权声明；当前 `@tarot-ai/pixel` 为专有软件。

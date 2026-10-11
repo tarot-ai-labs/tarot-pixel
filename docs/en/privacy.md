@@ -2,7 +2,7 @@
 
 [简体中文](../privacy.md) · **English**
 
-[Home](../../README.en.md) · [Support](../../SUPPORT.en.md)
+[Home](../../README.en.md)
 
 ## Local data
 

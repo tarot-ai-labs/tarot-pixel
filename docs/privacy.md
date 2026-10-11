@@ -2,7 +2,7 @@
 
 **简体中文** · [English](en/privacy.md)
 
-[返回首页](../README.md) · [反馈指南](../SUPPORT.md)
+[返回首页](../README.md)
 
 ## 本地数据
 

@@ -82,7 +82,6 @@ Demo recordings are being prepared. For now, follow the [complete workflow](docs
 - [FAQ](docs/en/faq.md): connection, sync, rendering, font, and asset troubleshooting.
 - [Data and privacy](docs/en/privacy.md): local data, agent access, and sharing feedback safely.
 - [Demos and examples](docs/en/showcase.md): recording slots and reproducible example details.
-- [Changelog](CHANGELOG.en.md): updates to the public documentation and community resources.
 
 ## Help improve Tarot Pixel
 
@@ -91,8 +90,6 @@ Demo recordings are being prepared. For now, follow the [complete workflow](docs
 - [Improve the docs](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=documentation.en.yml): missing steps, broken links, or unclear explanations.
 - [Ask questions and share experiences](https://github.com/tarot-ai-labs/tarot-pixel/discussions): usage questions, examples, and open discussions.
 
-You can submit feedback even if you do not know the version. Screenshots and logs are optional. See the [support guide](SUPPORT.en.md) for how feedback is handled.
-
 ---
 
-This repository contains product information, documentation, and user feedback for Tarot Pixel. Software packages retain their own licensing terms; `@tarot-ai/pixel` is currently proprietary software. See [CONTRIBUTING.en.md](CONTRIBUTING.en.md) to contribute to the documentation.
+This repository contains product information, documentation, and user feedback for Tarot Pixel. Software packages retain their own licensing terms; `@tarot-ai/pixel` is currently proprietary software.
