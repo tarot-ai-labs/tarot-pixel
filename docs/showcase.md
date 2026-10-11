@@ -6,9 +6,9 @@
 
 ## 50 秒了解视觉上下文
 
-[![视觉上下文：让 AI 读懂设计](../assets/visual-context-demo.jpg)](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-visual-context-50s-zh-CN.mp4)
+https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e
 
-[观看 / 下载视频（MP4）](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-visual-context-50s-zh-CN.mp4) · [下载可编辑工程（ZIP）](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-animation-project.zip) · [发布页](https://github.com/tarot-ai-labs/tarot-pixel/releases/tag/visual-context-demo-20261011)
+[下载可编辑工程（ZIP）](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-animation-project.zip) · [发布页](https://github.com/tarot-ai-labs/tarot-pixel/releases/tag/visual-context-demo-20261011)
 
 这段动画展示预览、结构、样式和资源如何成为 Agent 可查询的设计依据，并对比典型转换式 D2C 与上下文驱动的工作流程。Figma、Sketch 是设计入口，Qoder 是编码 Agent 示例。
 

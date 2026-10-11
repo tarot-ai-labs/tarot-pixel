@@ -17,7 +17,9 @@
 
 </div>
 
-![Tarot Pixel 工作方式示意：设计工具同步设计，Tarot Pixel 提供视觉上下文，Coding Agent 结合项目完成实现并回查修正。](assets/workflow-lightbulb-hd.svg)
+https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e
+
+[打开视频](https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e) · [演示说明](docs/showcase.md) · [可编辑动画工程](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-animation-project.zip)
 
 ## 把视觉还原接入真实开发
 
@@ -61,6 +63,8 @@
 
 ## 为什么这样设计
 
+![Tarot Pixel 工作方式示意：设计工具同步设计，Tarot Pixel 提供视觉上下文，Coding Agent 结合项目完成实现并回查修正。](assets/workflow-lightbulb-hd.svg)
+
 **设计稿是一份可以反复查阅的参考资料。** Agent 可以先看概览、定位模块，再查询具体节点；实现后仍能回到同一份设计数据，继续比对和修改。
 
 **视觉上下文按需获取。** 布局数值、图层关系、截图和合图各有用途，围绕当前实现问题逐层读取。
@@ -72,10 +76,6 @@
 [阅读《让设计稿成为 Agent 可查阅的视觉上下文》 →](docs/design-philosophy.md)
 
 ## 演示与使用文档
-
-[![视觉上下文：让 AI 读懂设计，50 秒动画](assets/visual-context-demo.jpg)](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-visual-context-50s-zh-CN.mp4)
-
-[观看 / 下载 50 秒视频](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-visual-context-50s-zh-CN.mp4) · [动画工程](https://github.com/tarot-ai-labs/tarot-pixel/releases/download/visual-context-demo-20261011/tarot-pixel-animation-project.zip) · [演示说明](docs/showcase.md)
 
 动画介绍视觉上下文如何连接设计与编码 Agent，并用 11 秒展示 Qoder 启用、Sketch 同步和设计链接的使用。完整操作见[使用流程](docs/workflow.md)。
 
