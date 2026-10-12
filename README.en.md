@@ -11,7 +11,7 @@
 Turn designs into visual context your agent can query, preview, and revisit.<br>
 Build and refine interfaces using the conventions of your project.
 
-[Quick start](docs/en/quick-start.md) · [Design philosophy](docs/en/design-philosophy.md) · [Demos](docs/en/showcase.md) · [Feedback](https://github.com/tarot-ai-labs/tarot-pixel/issues/new/choose)
+[Quick start](docs/en/quick-start.md) · [Design philosophy](docs/en/design-philosophy.md) · [Feedback](https://github.com/tarot-ai-labs/tarot-pixel/issues/new/choose)
 
 **Figma · Sketch → Tarot Pixel → Qoder / MCP clients**
 
@@ -71,9 +71,7 @@ For your first attempt, start with one card. [Follow the quick start →](docs/e
 
 [Read “Designs as visual reference material for coding agents” →](docs/en/design-philosophy.md)
 
-## Demos and documentation
-
-Demo recordings are being prepared. For now, follow the [complete workflow](docs/en/workflow.md) to try the cycle of syncing, implementing, comparing, and refining.
+## Documentation
 
 - [Quick start](docs/en/quick-start.md): connect, sync, and implement your first component.
 - [Installation](docs/en/installation.md): design tool plugins, Qoder, and MCP configuration.
@@ -81,7 +79,6 @@ Demo recordings are being prepared. For now, follow the [complete workflow](docs
 - [Supported capabilities](docs/en/compatibility.md): features, requirements, and current boundaries.
 - [FAQ](docs/en/faq.md): connection, sync, rendering, font, and asset troubleshooting.
 - [Data and privacy](docs/en/privacy.md): local data, agent access, and sharing feedback safely.
-- [Demos and examples](docs/en/showcase.md): recording slots and reproducible example details.
 
 ## Help improve Tarot Pixel
 

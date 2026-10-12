@@ -11,15 +11,13 @@
 把设计稿变成可查询、可预览、可持续回看的视觉上下文。<br>
 让 Coding Agent 结合你的项目，完成页面实现与视觉修正。
 
-[快速开始](docs/quick-start.md) · [设计思考](docs/design-philosophy.md) · [演示](docs/showcase.md) · [问题反馈](https://github.com/tarot-ai-labs/tarot-pixel/issues/new/choose)
+[快速开始](docs/quick-start.md) · [设计思考](docs/design-philosophy.md) · [问题反馈](https://github.com/tarot-ai-labs/tarot-pixel/issues/new/choose)
 
 **Figma · Sketch → Tarot Pixel → Qoder / MCP 客户端**
 
 </div>
 
 https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e
-
-[打开视频](https://github.com/user-attachments/assets/4f93a7d4-a2d3-4270-94d2-85a09240be8e) · [演示说明](docs/showcase.md)
 
 ## 把视觉还原接入真实开发
 
