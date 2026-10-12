@@ -1,53 +1,49 @@
-# Frequently asked questions
+# FAQ
 
 [简体中文](../faq.md) · **English**
 
 [Home](../../README.en.md) · [Report an issue](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=bug-report.en.yml)
 
-## My agent cannot see Tarot Pixel's tools
+## The agent cannot find Tarot Pixel tools
 
-Confirm that the plugin or MCP server is enabled, then call `server_status` in a new session. For npm configuration, check your Node.js version, network access, and the client's `PATH`. If your client expects a single server object, adapt the configuration accordingly. See [installation](installation.md) for the full example.
+Check that the plugin is enabled and ask the agent to call `server_status` in a new session. For a manual MCP setup, check your Node.js version, network, and whether the client can find `npx`. See [installation](installation.md) for the configuration.
 
-## I installed the design tool plugin. Why does sync still fail?
+## A design will not sync
 
-The design tool plugin exports data, while the local runtime receives it. Start the client connected to Tarot Pixel, ask the agent to call `server_status`, and confirm that `view.ready` is `true` before syncing.
+Start your client with Tarot Pixel enabled and ask the agent to check `server_status`. Once `view.ready` is `true`, sync the design. Run the design tool and client on the same computer.
 
-## The design list is empty, or a node cannot be found
+## A design or node is missing
 
-An empty list is normal before the first sync. After syncing, check that the design appears in the View and copy the actual returned link or identifier. Use node and module identifiers from the current design data. After changing the source design, sync again and ask the agent to read the current overview.
+Sync from your design tool and open the returned link to confirm the design is present. After changing the design, sync again and give the agent the latest complete link.
 
-## The View does not open
+## The design link will not open
 
-Use the address returned by the current `server_status` or sync result, and confirm that the runtime is still running. Check for duplicate runtime configurations or port conflicts, then inspect your client's MCP error messages. Disable a duplicate configuration if needed and restart the client; deleting design data is unnecessary.
+Keep your client running and use the address returned by the current sync. Check for duplicate Tarot Pixel MCP entries; disable duplicates and restart the client if needed.
 
-## Screenshots or composites fail
+## A screenshot or composite fails
 
-Confirm that a supported browser is installed and the View is ready in `server_status`. Try a small module first and record the failing steps and error message. If only one design fails, a sanitized minimal example helps distinguish rendering environment problems from layer content problems.
+Install Chrome, Chromium, Edge, or Brave and confirm the local design preview is ready. Retry with a small module. If it still fails, include the error message when [reporting the issue](https://github.com/tarot-ai-labs/tarot-pixel/issues/new?template=bug-report.en.yml).
 
-## Fonts, line breaks, or text widths differ from the design
+## Fonts or line breaks differ from the design
 
-Check whether the required font is installed and verify the weight, size, line height, and viewport. Font substitution affects layout. Before distributing a font subset, check that the font's license permits its use and distribution in your project.
+Install the design's fonts and check the weight, size, line height, and page width, then preview again.
 
-## Text appears both inside an image and again on the page
+## Text appears twice over an image
 
-Some assets already contain text or other visual elements. Ask the agent to inspect the node's image content metadata to see what is baked into the image. If the text needs to be dynamic, decide how to separate the image from editable content.
+Ask the agent to check which elements are already part of the image and avoid drawing them again. Implement text that needs to change separately in code.
 
-## Images work locally but break after deployment
+## Images break after deployment
 
-Local paths, resource URIs, and temporary URLs returned by the runtime are for reading or copying assets. Copy the assets into your project's managed asset directory and reference project paths. Business code should not depend directly on the local runtime's address.
+Copy images into your project's asset directory and reference those project paths. Local temporary addresses are for reading and transferring assets.
 
-## How can I share a design link with a teammate?
+## Can I send a local design link to a teammate?
 
-A local link points to the visitor's own machine, so it cannot serve as a cross-machine sharing link. Your teammate needs to sync the design or obtain usable design data in their own environment. For public feedback, describe the problem and attach a sanitized screenshot or minimal example.
+The local link works only on your computer. Your teammate needs to sync the design on their own computer.
 
-## Can it infer every interaction and component state?
+## How do I implement states and interactions?
 
-A static design can show how states look, but requirements still need to explain behavior. Tell the agent which conditions activate each state and what each button does. Module differences help with comparison but do not replace business definitions.
+Give the agent the designs and business conditions for each state. Describe button actions, data sources, and state transition rules.
 
-## Is a perfect first implementation guaranteed?
+## Where is design data stored?
 
-No. Design quality, model capabilities, fonts, assets, viewport, and project constraints affect the result. Start with a small module, preview it, and point out specific differences so the agent can revisit the design and refine the implementation.
-
-## Can I report a problem without knowing the version?
-
-Yes. Enter “Not sure” in the form. Screenshots and logs are optional. Explain where the problem occurred, what you expected, and what actually happened; maintainers can help gather further details.
+Synced design data and assets are stored on your computer. When the agent calls a model, the design information it reads may be included in the context sent to the model service.

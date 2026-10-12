@@ -2,78 +2,38 @@
 
 [简体中文](../quick-start.md) · **English**
 
-[Home](../../README.en.md) · [Installation](installation.md) · [Troubleshooting](faq.md)
+[Home](../../README.en.md) · [Installation](installation.md) · [FAQ](faq.md)
 
-Goal: sync a small component, ask your agent to implement it in your project, and complete one visual check.
+Install Node.js 20.19.0 or later and Chrome, Chromium, Edge, or Brave. Run Qoder and your design tool on the same computer.
 
-## 1. Prepare your environment
+## 1. Enable Tarot Pixel
 
-- A coding agent client that supports stdio MCP. Qoder can also use the Tarot Pixel plugin.
-- Node.js 20.19.0 or later.
-- Chrome, Chromium, Edge, or Brave installed locally for screenshots and composites.
-- A card, button group, or another small module in Figma or Sketch.
+Install Tarot Pixel from the [Qoder marketplace](https://qoder.com/zh/marketplace/plugin?id=tarot-pixel) and enable it for your task. For other MCP clients, see [installation](installation.md#configure-mcp-directly).
 
-## 2. Connect Tarot Pixel
-
-Install and enable Tarot Pixel from the [Qoder marketplace](https://qoder.com/zh/marketplace/plugin?id=tarot-pixel). If you use another MCP client or prefer a direct MCP connection, add this server:
-
-```json
-{
-  "mcpServers": {
-    "tarot-pixel": {
-      "type": "stdio",
-      "command": "npx",
-      "args": ["--yes", "--package=@tarot-ai/pixel@latest", "--", "tarot-pixel"]
-    }
-  }
-}
-```
-
-The example uses the latest npm release. The first launch requires access to npm. Your client starts and manages the runtime, so you do not need to run another copy in a terminal. If you already have MCP servers configured, merge only the `tarot-pixel` entry. Configuration locations and supported fields vary by client; see [installation](installation.md).
-
-Ask your agent to check the connection:
-
-```text
-Call Tarot Pixel's server_status and confirm that the local View is ready.
-Then call design_list to list available designs.
-An empty list is normal before the first sync.
-```
-
-The `view.ready` field in `server_status` should be `true`. If the connection or View is unavailable, follow the [FAQ](faq.md) before continuing.
-
-## 3. Sync a design
+## 2. Sync a design
 
 1. Install the [Figma plugin](https://www.figma.com/community/plugin/1635645029043726171) or [Sketch plugin](https://unpkg.com/@tarot-ai/tarot-pixel-sketch-release@latest/Tarot-Pixel.sketchplugin.zip).
-2. Select the target frame, artboard, or layers in your design tool and open Tarot Pixel.
-3. Choose **Sync design** and wait for it to finish.
-4. Open or copy the complete local link returned by the plugin. Confirm that the expected module and layers appear in the View.
+2. Keep Qoder running, select the target frames, artboards, or layers in your design tool, and open Tarot Pixel.
+3. Choose **Sync design**. Open the returned link to inspect the design and copy the complete address.
 
-The design tool and runtime should run on the same machine. Links typically look like `http://127.0.0.1:18276/design/<designId>`; use the actual address returned by the sync.
+Sync again whenever you update the source design.
 
-## 4. Implement it in your project
+## 3. Give Qoder a task
 
-Open the frontend project you want to modify. Send your agent this prompt, replacing the link and component name:
+Open your frontend project and send the design link with your requirements:
 
 ```text
 Use Tarot Pixel to implement this design: <complete synced design link>.
-The target is the "Product card" module.
-
-Read the project first and reuse its components, styling conventions, and asset directories.
-Locate the module through the design overview, then query the relevant layout, styles, and images.
-Keep the title, price, and button dynamic. Use composites for complex decoration where appropriate.
-Save generated assets into the project's managed asset directory before referencing them in code.
-Run the project, preview at the relevant viewport, compare with the design, and correct major differences.
+Build the product card using our existing components and styling conventions.
+Keep the title, price, and button dynamic, and save images into the project's asset directory.
+Run the page, compare it with the design, and refine the details.
 ```
 
-## 5. Make one correction
-
-Point out an observed difference and ask the agent to check the corresponding design data:
+Continue with a correction when needed:
 
 ```text
-The gap between the button and price is too large, and the card background corners differ.
-Query the relevant node layout and styles, correct the implementation, and preview it again.
+The button is too far from the price, and the card corners differ from the design.
+Look up the relevant layout and styles, correct them, and preview the result again.
 ```
 
-You are done when the correct design is visible in the View, the agent can read the target module, the component runs in your project, its assets are saved in the project, and you have compared the rendered result with the design.
-
-Next: [Workflow and prompts](workflow.md).
+[More workflows and prompts →](workflow.md)
